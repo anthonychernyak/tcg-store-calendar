@@ -1,0 +1,42 @@
+Starting plan:
+
+- Stores
+    - Name
+    - Address
+    - Website
+    - Games Supported
+    - Hours
+
+- Game
+    - Name
+    - Formats (FormatType)
+    - Description
+
+- FormatType
+    - Name
+    - Description
+
+- Series
+    - Events
+    - Game
+    - Description
+
+- Events
+    - Name
+    - Game
+    - Store
+    - Time
+    - Type (EventType)
+    - Format
+    - Prizing
+    - Price
+    - Event Cap
+    - SpotsRemaining (Optional)
+    - Description
+
+- EventType
+    - Prerelease
+    - Play for Packs
+    - Play for Credit
+    - Casual
+    - High Level Play
